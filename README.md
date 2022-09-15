@@ -8,9 +8,7 @@ Two teams have already played their quota, England and Afghanistan, surprisingly
 
 ### **The current points table stands as follows**
 
-| Team | Matches Played | Matches Lost | Matches Won | Points | Total
-RunsScored/OversFaced | Total
-RunsConceded/OversBowled | NRR |
+| Team | Matches Played | Matches Lost | Matches Won | Points | RunsScored/OversFaced | RunsConceded/OversBowled | NRR |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Afghanistan | 5 | 3 | 2 | 4 | 880/100 | 810/100 | 0.700 |
 | Sri Lanka | 4 | 3 | 1 | 2 | 771/80 | 735/79 | 0.384 |
