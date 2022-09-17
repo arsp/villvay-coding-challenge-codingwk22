@@ -62,7 +62,7 @@ If they win the game, they take India out of the qualification equation because 
   - **Averages RunsScored when Batting :** 175 in their 20 overs (700/4)
   - **Predicted RunsScored/OversFaced would be** : 700+175 = 875/100
   - **Average RunsConceded when bowling :** 182.5 in their 20 overs(725/80)
-    - But since we are assuming they are winning here we would add a buffer of 15 runs since they are one before last in the table(see conditions), **so their opponent would score 165 when they win**.
+    - But since we are assuming they are winning here we would add a buffer of 15 runs since they are one before last in the table(see assumption), **so their opponent would score 165 when they win**.
   - **Predicted RunsConceded/OversBowled would be**  725+ 160 = 885/100
   - **Predicted NRR Would be  :** -**0.100 (875/100 - 885/100)**
 - **To Qualify :**
@@ -143,8 +143,8 @@ class Fixture {
 
 1. Assume that each team would score their average score(Total Runs Scored/No of Games played) in the predicted match when batting first.
 2. All teams would face 20 overs in all predictions except when the team whom we are checking the prediction for team is batting second; In that case we are calculating the number of overs to win by
-3. In the event of a Win for the team under calculation deduct
-    1. 10 runs if they are last in the table and increment by 5 for each level up from the Your teams’ Average Score
+3. In the event of a Win for the team under calculation when batting first deduct
+    1. 10 runs if they are last in the table and increment by 5 for each level up from the the Opposing teams’ Average Score
 4. Always assume teams will score 1 more run than the target when batting second/chasing.
 5. Always the OversFaced will be a round number, decimals are ignored to keep the Math sample
 
