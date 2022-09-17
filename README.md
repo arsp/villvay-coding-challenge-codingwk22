@@ -142,9 +142,9 @@ class Fixture {
 **Assumptions**
 
 1. Assume that each team would score their average score(Total Runs Scored/No of Games played) in the predicted match when batting first.
-2. All teams would face 20 overs in all predictions except when the team whom we are checking the prediction for team is batting second; In that case we are calculating the number of overs to win by
+2. All teams would face 20 overs in all predictions except when the team whom we are checking the prediction for is batting second; In that case we are calculating the number of overs to win by
 3. In the event of a Win for the team under calculation when batting first deduct
-    1. 10 runs if they are last in the table and increment by 5 for each level up from the the Opposing teams’ Average Score
+    1. 10 runs if they are last in the table and increment by 5 for each level up from the the Opposing teams’ **Average Batting Score**
 4. Always assume teams will score 1 more run than the target when batting second/chasing.
 5. Always the OversFaced will be a round number, decimals are ignored to keep the Math sample
 
